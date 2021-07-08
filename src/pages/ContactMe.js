@@ -10,7 +10,7 @@ const ContactMe = () => {
       animate="show"
       exit="exit"
     >
-      <h1>hello</h1>
+      <h1 style={{ color: "white", textAlign: "center" }}>hello</h1>
     </motion.div>
   );
 };

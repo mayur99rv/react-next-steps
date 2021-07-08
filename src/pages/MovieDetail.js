@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 import { pageAnimation } from "../animate/animation";
 
 const MovieDetail = () => {
-  const history = useHistory().location.pathname;
+  const history = useHistory().location.pathname; // eslint-disable-next-line
   const [movies, setMovies] = useState(MovieState);
   const [movie, setMovie] = useState(null);
 

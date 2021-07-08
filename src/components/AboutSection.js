@@ -2,6 +2,7 @@ import React from "react";
 //Images
 import homeImg1 from "../img/home1.png";
 //Styled
+// eslint-disable-next-line
 import styled from "styled-components";
 import { About, Description, Hide, Image } from "../pages/styles";
 

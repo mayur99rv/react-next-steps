@@ -6,8 +6,8 @@ import diaphgram from "../img/diaphragm.svg";
 import money from "../img/money.svg";
 import teamwork from "../img/teamwork.svg";
 import home2 from "../img/home2.png";
-
-import { useInView } from "react-intersection-observer";
+// eslint-disable-next-line
+import { useInView } from "react-intersection-observer"; // eslint-disable-next-line
 import { useAnimation } from "framer-motion";
 // styles
 import { About, Description, Image } from "../pages/styles";
